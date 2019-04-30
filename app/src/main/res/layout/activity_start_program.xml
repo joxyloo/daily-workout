@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartProgramActivity"
+    android:background="#faf9f9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7 Days Program"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Let's challange your fullbody workout for 7 days"
+            android:textSize="14sp"
+            android:textColor="#848181"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Keep fighting and move your body"
+            android:textSize="14sp"
+            android:textColor="#848181"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/one"
+            android:text="    Day 1     15 min (10 exercises x 3)"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/two"
+            android:text="    Day 2     7.5 min (5 exercises x 3)"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/three"
+            android:text="    Day 3     30 min (10 exercise x 3) x2 sets"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/four"
+            android:text="    Day 4     7.5 min (5 exercise x 3)"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/five"
+            android:text="    Day 5     15 min (10 exercise x 3)"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/six"
+            android:text="    Day 6     7.5 min (5 exercise x 3)"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/sev"
+            android:text="    Day 7     30 min (10 exercise x 3) x2 sets"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>
